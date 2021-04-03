@@ -1,0 +1,690 @@
+/* home page start */
+     @media only screen and (max-width: 1023px){
+         .container{
+             max-width:100% !important;
+         }
+     }
+    @media only screen and (max-width: 1199px){
+        .container{
+            max-width:95% !important;
+        }
+    }
+.container{
+    width:100% !important;
+    padding: 0 15px !important;
+    max-width:90% !important;
+    margin:0 auto !important;
+}
+ .home_top{
+        width: 100%;
+        height: auto;
+        
+        padding-top:10rem;
+        padding-bottom:10rem;
+    }
+    .home_top h1{
+        font-size: 80px;
+        font-weight: 900;
+        color: #00afff;
+    }
+    .home_top p{
+        font-size: 2vw;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 3rem;
+    }
+    .home_top .home_brand_button{
+        width: 13rem;
+        color: white;
+        padding-top: .5rem;
+        padding-bottom:.5rem;
+        background-color:#00afff;
+        border: 1px solid #00afff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        margin-right: 1rem;
+        transition: .5s;
+        outline: none;
+    }
+    .home_top .home_brand_button:hover{
+        color: #00afff;
+        background-color:white;
+    }
+    .home_top .home_infu_button{
+        width: 13rem;
+        color: #00afff;
+        padding-top: .5rem;
+        padding-bottom:.5rem;
+        background-color:white;
+        border: 1px solid #00afff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        transition: .5s;
+        outline: none;
+    }
+    .home_top .home_infu_button:hover{
+        color: white;
+        background-color:#00afff;
+    }
+    @media only screen and (max-width: 600px) {
+  .home_top h1{
+        font-size: 50px;
+        font-weight: 800;
+        
+    }
+    .home_top p{
+        font-size: 15px;
+        
+    }
+    .home_top .home_brand_button{
+       width:10rem;
+    }
+    .home_top .home_infu_button{
+        width: 10rem;
+        position:absolute;
+      
+    }
+}
+/* home page end */
+
+/* deshbord header*/
+.main_head{
+    width:100%;
+    height: auto;
+    z-index: 2;
+    border-bottom: 1px solid #cdcdcd;
+    padding-top: .5rem;
+    padding-bottom: .3rem;
+  }
+  .main_head .nav-link{
+    font-family: sohne,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb( 95, 96, 96 );
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: .5rem;
+    transition: .5s;
+  }
+  .main_head .nav-link:hover{
+    color: #00afff;
+  }
+  
+  /* deahbord end */
+  
+  /* login modal box */
+  
+  .login{
+        margin-top: 4rem;
+        width: 100%;
+        height: auto;
+    }
+    .login .modal-content{
+        border-radius: 0px !important;
+    }
+    .login .modal-header{
+        background-color: #f7f7f7 !important;
+        border-bottom: 1px solid #cdcdcd !important;
+    }
+    .login .modal-header h4{
+        color: #4a4a4a !important;
+        font-size: 22px !important;
+    }
+    .login input[type="text"],input[type="password"]{
+        width: 100%;
+        height: auto;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: 1rem;
+        border: 1px solid #cdcdcd;
+        border-radius: 0px !important;
+        outline: none;
+        margin-bottom: 1rem;
+    }
+    .login input[type="submit"]{
+        width: 100%;
+        height: auto;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        outline: none;
+        color: white;
+        background-color: #00afff;
+        border-radius: 0px !important;
+    }
+    .login .hide{
+        position: absolute;
+        margin-left: -2rem;
+        margin-top: .5rem;
+    }
+    .login .modal-footer{
+        border-top: none !important;
+    }
+    .register-footer{
+        width:100%;
+        height:auto;
+        text-align:center !important;
+    }
+    .login-footer{
+        width:100%;
+        height:auto;
+    }
+    .login-footer .forgot-pass{
+        margin-left:5rem;
+    }
+    
+    /* login modal box end */
+    
+    
+
+
+
+/* brand modal box */
+
+.brand_modal{
+        
+        width: 100%;
+        height: auto;
+    }
+    .brand_modal .modal-content{
+        border-radius: 0px !important;
+    }
+    .brand_modal .modal-header{
+        background-color: #f7f7f7 !important;
+        border-bottom: 1px solid #cdcdcd !important;
+    }
+    .brand_modal .modal-header h4{
+        color: #4a4a4a !important;
+        font-size: 22px !important;
+    }
+    .brand_modal input[type="text"],input[type="email"],input[type="number"],textarea{
+        width: 100%;
+        height: auto;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: 1rem;
+        border: 1px solid #cdcdcd;
+        border-radius: 0px !important;
+        outline: none;
+        margin-bottom: 1rem;
+    }
+    .brand_modal input[type="submit"]{
+        width: 100%;
+        height: auto;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        outline: none;
+        color: white;
+        border:none;
+        background-color: #00afff;
+        border-radius: 0px !important;
+    }
+    .brand_modal .hide{
+        position: absolute;
+        margin-left: -2rem;
+        margin-top: .5rem;
+    }
+    .brand_modal .modal-footer{
+        border-top: none !important;
+    }
+    
+    
+    /* deshbord start */
+    
+    .user_desh{
+        width:100%;
+        height:auto;
+        background-color:#f4f4f4;
+        box-sizing: border-box;
+        
+    }
+    
+    
+    .user_desh .right{
+        width:78%;
+        height:auto;
+        float:right;
+        padding-top:2rem;
+        padding-bottom:2rem;
+        padding-right:1rem;
+        padding-left:1rem;
+        background-color:#ebf0f2;
+    }
+    .user_desh .right .box{
+        width:100%;
+        height:auto;
+        background-color:white !important;
+        border:1px solid #cdcdcd;
+       margin-bottom:2rem;
+        
+    }
+    .user_desh .right .box .head{
+        width:100%;
+        height:auto;
+        background-color:#f9f9f9 !important;
+        border:1px solid #cdcdcd;
+        border-top:none;
+        border-right:none;
+        border-left:none;
+        padding-top:1.4rem;
+        padding-bottom:1.4rem;
+    }
+    .user_desh .right .box .head h5{
+        color:#00afff;
+        text-align:center;
+        text-transform:uppercase;
+    }
+    .user_desh .right .add_new_page{
+        width:100%;
+        height:auto;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+        color:white;
+        outline:none;
+        border:none;
+        background-color:#00afff;
+        margin-bottom:1rem;
+        margin-top:1rem;
+        margin-left:-1rem !important;
+    }
+    .user_desh .right .box .pro{
+        width:100%;
+        height:auto;
+        margin-top:2rem;
+    }
+    
+    .user_desh .right .box .pro  .card1{
+        width:70%;
+        height:auto;
+        
+        
+    }
+    .user_desh .right .box .pro  .card1 .mob_view{
+        width: 100% !important;
+        height: auto !important;
+        padding-top: .5rem !important;
+        padding-bottom: .5rem !important;
+        
+        border: 1px solid #cdcdcd !important;
+        border-radius: 0px !important;
+       padding-left:1rem;
+        outline: none !important;
+        margin-bottom: 2rem;
+        margin-left:1rem;
+        
+        
+    }
+    .user_desh .right .box .pro  .card2{
+        width:30%;
+        height:auto;
+        
+        
+    }
+    .user_desh .right .box .pro  .card2 .req_but{
+        margin-left:2rem;
+        width:10rem;
+        height:auto;
+        padding-top:.5rem;
+        padding-bottom:.6rem;
+        color:white;
+        border:none;
+        outline:none;
+        background-color:#00afff;
+        margin-left:1rem;
+    }
+    
+    
+    .user_desh .right .box .pro .inpu{
+        width:91%;
+        height:auto;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+        
+         padding-left:1rem;
+        border:1px solid #cdcdcd;
+        outline:none;
+        margin-bottom:1rem;
+    }
+    .user_desh .right .box .pro .inp{
+        width:100%;
+        height:auto;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+        
+         padding-left:1rem;
+        border:1px solid #cdcdcd;
+        outline:none;
+        margin-bottom:1rem;
+    }
+    .user_desh .right .box .pro .font-ico{
+        color:#00afff;
+        font-size:22px;
+        margin-right:1rem;
+    }
+    .user_desh .right .box .pro input[type="submit"]{
+        width:12rem;
+        height:auto;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+        color:white;
+       background-color:#00afff;
+       float:right;
+        border:none;
+        text-transform:uppercase;
+        margin-top:1rem;
+        margin-bottom:3rem;
+        outline:none;
+        margin-right:1rem;
+    }
+    .user_desh .right .box .flex{
+      flex-wrap: wrap; 
+        display: flex;
+       
+    }
+    .user_desh .right .box .t_box{
+      padding-top:2rem;
+      padding-bottom:2rem;
+       
+    }
+    .user_desh .right .box .flex .card{
+       width:33.3%;
+       height:auto;
+       border:1px solid #cdcdcd;
+       border-radius:0px !important;
+       padding-bottom:1.4rem;
+       padding-top:1.4rem;
+       background-color:white;
+       text-align:center;
+       border-top:none;
+       border-right:none;
+       
+    }
+    .user_desh .right .box .his{
+        margin-top:3rem;
+        font-size:18px !important;
+        font-weight:400 !important;
+        color:#00afff;
+        
+    }
+    
+    .user_desh .right .box .active_head{
+      width:100%;
+      height:auto;
+      box-shadow:0 2px 4px 0 rgb(81 77 77 / 50%), 0 0 4px 0 rgb(175 175 175 / 50%);
+      background-color:transparent;
+        
+    }
+    .user_desh .right .box .active_head a{
+      text-decoration:none;
+        
+    }
+    .user_desh .right .box .active_head .card{
+      width:50%;
+      height:auto;
+      padding-top:.5rem;
+      padding-bottom:0rem !important;
+      border-radius:0px !important;
+      border:none !important;
+        
+    }
+    .user_desh .right .box .active_head .step{
+      
+        background-color:#00afff ;
+    }
+    .user_desh .right .box .active_head .step p{
+      color:white !important;
+        
+    }
+    .user_desh .right .box .active_head .card p{
+      font-size:18px ;
+      font-weight:600;
+        color:#00afff;
+        text-transform:uppercase;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .user_desh .left{
+        
+        display:none;
+    }
+    .user_desh .right{
+        
+        width:100% !important;
+        padding-left:0rem !important;
+        padding-right:0rem !important;
+    }
+    .user_desh .right .box .flex .card{
+       width:100% !important;
+       margin-bottom:1rem !important;
+       border-top:1px solid #cdcdcd;
+    }
+    .user_desh .right .box .pro .inpu{
+        width:84% !important;
+    }
+    .user_desh .right .add_new_page{
+        float:left !important;
+        width:6rem !important;
+        margin-right:0rem !important;
+        font-size:12px !important;
+        margin-top:1.7rem !important;
+        margin-left:1rem !important;
+        position:absolute;
+    }
+    .user_desh .right .box .pro .card1{
+        width:58% !important;
+    }
+    .user_desh .right .box .pro .card2{
+        width:42% !important;
+    }
+       .user_desh .right .box .pro .card2 .req_but{
+           width:6rem !important;
+       }
+       .user_desh .right .box .active_head .mm{
+        display:none;
+        
+    }
+    .user_desh .right .box .active_head .card{
+        margin-bottom:0rem !important;
+    }
+    .user_desh .right .box .pro .inp{
+        background-color:white !important;
+    }
+    .main_head .menu_but{
+        display:block !important;
+       
+    }
+   
+    #campaign_length{
+    display:none;
+}
+#campaign_filter input[type=search]{
+    width:5rem !important;
+    text-align:right !important;
+}
+#campaign_info{
+    display:none;
+}
+#campaign_paginate{
+    float:right !important;
+    margin-top:1rem !important;
+}
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+    text-align:right !important;
+}
+    }    
+    .main_head  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 25;
+  top: 0;
+  left: 0px;
+  background-color:black ;
+  
+  overflow-x: hidden;
+  transition: 0.3s;
+
+}
+.main_head  .sidenav .social{
+  width:100%;
+  height:auto;
+    background-color:transparent;
+    padding-left:1rem;
+    margin-top:1.5rem;
+}
+.main_head  .sidenav .social a{
+  text-decoration:none;
+  margin-right:.5rem;
+  padding:6px 13px;
+  color:white;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  transition: .6s;
+}
+.main_head  .sidenav .social a:hover{
+    border-radius:0px;
+    
+  
+}
+.main_head  .sidenav .social .fb{
+  background-color:	#3b5998;
+}
+.main_head  .sidenav .social .insta{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.main_head  .sidenav .social .youtube{
+  background-color:	#FF0000;
+}
+.main_head  .sidenav .social .linkdin{
+  background-color:	#0e76a8;
+}
+
+.main_head .sidenav .active{
+        
+        
+        background-color:#00afff;
+       
+    }
+
+.main_head .sidenav .closebtn {
+  position: relative;
+    margin-top:0rem;
+  float:right;
+  font-size: 36px;
+  font-weight:100;
+  margin-right:20px;
+
+}
+.main_head .sidenav button{
+        width:100%;
+        height:auto;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        border:none;
+        outline:none;
+        color:#f9f9f9;
+        background-color:transparent;
+        font-size:16px;
+        font-weight:500;
+        padding-left:1.5rem;
+        margin-bottom:5px;
+        text-align:left;
+        transition:.5s;
+    }
+    
+    .main_head .sidenav.active{
+        
+        opacity:.8;
+        background-color:#dc2d46;
+       
+    }
+    .main_head .sidenav button:hover{
+        
+        background-color:#00afff;
+        opacity:.7;
+        
+    }
+    .main_head .menu_but{
+        display:none;
+        background-color:white;
+        color:#11648e;
+        border:1px solid #00afff;
+        outline:none;
+    }
+    .slider_logo{
+        width:120px;
+        padding-top:.5rem;
+        padding-bottom:1rem;
+    }
+    .your_page_head{
+        margin-bottom:1rem;
+        color:grey;
+        font-weight:400;
+    }
+    .hori{
+        color:grey;
+        border-bottom:3px;
+    }
+    .table-striped tbody tr:nth-of-type(odd){
+    background-color:#f4f8fb !important;
+}
+.page-item.disabled .page-link{
+       border:transparent !important;
+   }
+   #campaign_paginate{
+    
+    margin-top:1rem !important;
+}
+#campaign_filter input[type=search]{
+    border: 1px solid #cdcdcd;
+    border-radius:0px !important;
+    outline:none !important;
+    padding:5px;
+    font-size:15px;
+    margin-right:5px;
+}
+.page-link{
+    border:transparent !important;
+    color:#6c757d !important;
+    margin-left:5px !important;
+}
+.page-link:hover{
+    background-color:black !important;
+    border-radius:2px !important;
+    color:white !important;
+}
+.custom-select-sm{
+    border-radius:0px !important;
+    border:1px solid #cdcdcd;
+}
+table.dataTable{
+    margin-bottom:2rem !important;
+}
+.page-item.active .page-link{
+    background:linear-gradient(to bottom, #fff 0%, #dcdcdc 100%) !important;
+    outline:none !important;
+    border-radius:2px !important;
+    color:#333 !important;
+    border:1px solid #979797 !important;
+    background:white;
+}
+.avtar{
+    width:40px;
+    margin-top:-.2rem;
+    margin-right:-1.5rem;
+}
+.user_box{
+    background-color:rgb( 243, 242, 250 ) !important;
+    margin-top:-3rem !important;
+    margin-bottom:-2.5rem !important;
+    padding-top:1.8rem !important;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+    /* deshbord end */
